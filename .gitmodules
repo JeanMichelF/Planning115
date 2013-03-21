@@ -1,0 +1,3 @@
+[submodule "lib/PHPPlanningXLS2ICS"]
+	path = lib/PHPPlanningXLS2ICS
+	url = https://github.com/JeanMichelF/PHPPlanningXLS2ICS.git
