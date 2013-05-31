@@ -26,6 +26,9 @@ class Generic {
      */
     public function getLayout($view = null, array $params=array()) {
         // Valeurs par défaut
+        if (!array_key_exists('includeNavigation', $params)) {
+            $params['includeNavigation'] = true;
+        }
         if (!array_key_exists('includeFooter', $params)) {
             $params['includeFooter'] = true;
         }

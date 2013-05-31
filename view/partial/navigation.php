@@ -11,9 +11,9 @@
     <div class="navbar-inner">
         <div class="container">
             <ul class="nav">
-                <li><a class="brand" href="./">Planning 115</a></li>
+                <li><a class="brand" href="http://www.bakubakuanimals.net/planning115/">Planning 115</a></li>
                 <li class="divider-vertical"></li>
-                <li><a href="#">Aide</a></li>
+                <li><a href="http://www.bakubakuanimals.net/planning115/aide">Aide</a></li>
             </ul>
         </div>
     </div>

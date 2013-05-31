@@ -29,7 +29,7 @@ require_once 'router.php';
 $r = new Router("/bakubaku/planning115"); // create router instance
 
 $r->map('/bakubaku/planning115/', array('controller' => 'home'));
-$r->map('/bakubaku/planning115/aide', array('controller' => 'aide'));
+$r->map('/bakubaku/planning115/aide', array('controller' => 'help'));
 $r->map('/bakubaku/planning115/accueil', array('controller' => 'home'));
 $r->map('/bakubaku/planning115/upload-fichier', array('controller' => 'upload'));
 $r->map('/bakubaku/planning115/upload-complete', array('controller' => 'upload', 'action' => 'complete'));

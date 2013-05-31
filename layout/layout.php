@@ -20,6 +20,7 @@
     <link href="./static/css/font-awesome.min.css" rel="stylesheet" media="screen">
     <link href="./static/css/font-awesome-ie7.min.css" rel="stylesheet" media="screen">
     <link href="./static/css/planning.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <?php
         if (isset($css)) {
             foreach ($css as $styleSheet) {
@@ -43,6 +44,11 @@
 </head>
 <body>
     <div class="container-fluid well">
+        <?php
+            if (isset($includeNavigation) && $includeNavigation) {
+                include_once sprintf('%s/../view/partial/navigation.php', __DIR__);
+            }
+        ?>
         <?php
             if (isset($view)) {
                 include sprintf('%s/../view/%s.php', __DIR__, $view);
