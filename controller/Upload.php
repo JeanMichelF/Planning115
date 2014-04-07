@@ -40,7 +40,7 @@ class Upload extends Generic {
                 $filenameexploded = explode('.', $file['name']);
                 if (count($filenameexploded) > 1) {
                     $extension = $filenameexploded[1];
-                    if (!in_array($extension, array('xls', 'xlsx', 'xlsm'))) {
+                    if (!in_array($extension, array('xls', 'xlsx', 'xlsm', 'ods'))) {
                         self::loadErrors("Extension du fichier non valide", $params);
                     } else {
                         self::handleFile($file, $extension);
